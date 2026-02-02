@@ -1,0 +1,26 @@
+# Visual Studio
+*.user
+*.suo
+bin/
+obj/
+Debug/
+Release/
+
+# STM32CubeIDE
+*.project
+*.cproject
+Debug/
+Release/
+*.elf
+*.map
+*.bin
+*.hex
+
+
+!*.ioc
+
+
+*.log
+*.tmp
+*.bak
+*.swp

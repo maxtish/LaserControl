@@ -1,0 +1,14 @@
+mach create "stm32"
+
+machine LoadPlatformDescription @platforms/cpus/stm32f103.repl
+
+# Загружаем ELF относительно скрипта
+sysbus LoadELF @..\STM32\STM32F103C8\STM32CubeIDE\Debug\STM32F103C8.elf
+
+emulation CreateServerSocketTerminal 12345 "term" false
+
+connector Connect sysbus.usart2 term
+
+showAnalyzer sysbus.usart2
+
+start
