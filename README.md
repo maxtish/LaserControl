@@ -9,7 +9,7 @@
 ![Главное окно](Screenshots/main_window.png)
 
 Терминал Renode с выводом UART:  
-![Renode Terminal](Screenshots/renode_terminal.png
+![Renode Terminal](Screenshots/renode_terminal.png)
 
 Терминал Renode и C# приложение:  
 ![Renode Terminal](Screenshots/renode_and_window.png)
@@ -24,7 +24,7 @@
 ---
 
 ## 📦 Структура репозитория
-
+```
 LaserControl/
 ├─ CSharpApp/ # Приложение на C# (WPF)
 │ ├─ LaserPanel1.sln
@@ -39,7 +39,7 @@ LaserControl/
 │ └─ laser.resc
 └─ README.md
 
-
+```
 
 
 ---
